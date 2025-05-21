@@ -1,0 +1,95 @@
+{
+  "banners": [
+    
+		{
+      "id": "01",
+			"title": "Clothing Collection 2025",
+			"imageUrl": "https://i.ibb.co/wZv2s1T6/Frame-33149.png"
+    },
+		{
+      "id": "02",
+			"title": "Autumn Collection 2025",
+			"imageUrl": "https://i.ibb.co/hRBFHvHk/Mask-Group-1.png"
+    },
+		{
+      "id": "03",
+			"title": "Accessories Collection 2025",
+			"imageUrl": "https://i.ibb.co/20WCrpXW/Frame-33123.png"
+    }
+  ],
+  "products": [
+    {
+			"id": "01",
+			"name": "Linen Dress",
+			"price": 90.02,
+			"discount": 10,
+			"rating": 5,
+			"reviewCount": 20,
+			"image": "https://i.ibb.co/SD47BZNp/Mask-Group-1.png",
+			"description":
+				"Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home.",
+			"sizes": ["s", "M"],
+			"colors": ["Black"]
+		},
+		{
+			"id": "02",
+			"name": "Filted Waist Dress",
+			"price": 82.0,
+			"discount": 0,
+			"rating": 3,
+			"reviewCount": 110,
+			"image": "https://i.ibb.co/Jw9tjsj3/Mask-Group-2.png",
+			"description":
+				"Minimal Stand is made of by natural wood. The design that is very simple and minimal. This is truly one of the best furnitures in any family for now. With 3 different colors, you can easily select the best match for your home.",
+			"sizes": ["XL"],
+			"colors": ["Black"]
+		}
+  ],
+	"reviews": [
+		{
+			"id": "01",
+			"avatarUrl": "https://i.ibb.co/h1n0FRHn/Ellipse-76.png",
+			"name": "Jennifer Rose",
+			"rating": " 5",
+			"comment": " I love it.  Awesome customer service!! Helped me out with adding an additional item to my order. Thanks again!",
+			"createdAt": 1747710042553
+		},
+		{
+			"id": "02",
+			"avatarUrl": "https://i.ibb.co/tT8QbLVp/Ellipse-77.png",
+			"name": "Kelly Rihana",
+			"rating": "5",
+			"comment" : "I'm very happy with order, It was delivered on and good quality. Recommended!",
+			"createdAt": 1747710042570
+		}
+	],
+	"carts": [
+		{
+			"id": "01",
+			"product":
+				{
+					"id": "01",
+					"image": "https://i.ibb.co/SD47BZNp/Mask-Group-1.png",
+					"name": "Linen Dress",
+					"price": 90.02
+			  },
+			"sizes": "s, M",
+			"colors": "Black",
+			"quantity": 2,
+			"isChecked": true
+		},
+		{
+			"id": "02",
+			"product": {
+				"id": "02",
+				"image": "https://i.ibb.co/Jw9tjsj3/Mask-Group-2.png",
+			  "name": "Filted Waist Dress",
+				"price": 82
+			},
+			"sizes": "XL",
+			"colors": "Black",
+			"quantity": 1,
+			"isChecked": false
+		}
+	]
+}
