@@ -1,6 +1,46 @@
 {	
 	 "users": [
-    { "id": 1, "email": "admin@gmail.com", "password": "123@abc", "name": "Admin" }
+		{
+			"email": "admin@gmail.com",
+			"password": "Admin@123",
+			"name": "Admin 1",
+			"token": "token 1",
+			"favorites": [
+				"1",
+				"3"
+			],
+			"avatar": "https://banner2.cleanpng.com/20180623/iqh/aazrdy8gb.webp",
+			"firstName": "Admin",
+			"lastName": "1",
+			"country": "Viet Nam",
+			"street": "Tieu La",
+			"city": "Da Nang",
+			"state": "Hai Chau",
+			"zipCode": 55000,
+			"phoneNumber": "0979081574",
+			"id": "1"
+		},
+		{
+			"email": "admin2@gmail.com",
+			"password": "Admin2@123",
+			"name": "Admin 2",
+			"token": "token 2",
+			"favorites": [
+				"1",
+				"2",
+				"3"
+			],
+			"avatar": "https://banner2.cleanpng.com/20180623/iqh/aazrdy8gb.webp",
+			"firstName": "Admin",
+			"lastName": "2",
+			"country": "Viet Nam",
+			"street": "Tieu La",
+			"city": "Da Nang",
+			"state": "Hai Chau",
+			"zipCode": 50000,
+			"phoneNumber": "0979081574",
+			"id": "2"
+		}
   ],
   "banners": [
     
